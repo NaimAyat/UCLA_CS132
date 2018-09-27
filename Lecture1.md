@@ -82,3 +82,4 @@
 * From a regular expression we can construct a determenistic finite automaton (DFA)
 ## Chapter 3: LL Parsing
 * Nov 6 midterm topic 
+* Questions exactly from http://ll1academy.cs.ucla.edu/index
