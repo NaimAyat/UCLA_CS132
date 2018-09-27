@@ -79,3 +79,4 @@
     * We use regular expressions to specify these patterns
 ### CS 181 Refresh
 * Regular expressions -> NFA -> DFA -> code for scanner
+* From a regular expression we can construct a determenistic finite automaton (DFA)
