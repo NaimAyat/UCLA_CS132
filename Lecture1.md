@@ -77,3 +77,5 @@
     * Identifiers (alphabetic followed by k alphanumerics
     * Numbers (integers, decimals, reals, complex)
     * We use regular expressions to specify these patterns
+### CS 181 Refresh
+* Regular expressions -> NFA -> DFA -> code for scanner
