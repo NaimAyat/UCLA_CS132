@@ -19,3 +19,23 @@
   * Preliminary storage map
   * Shape the code for back end
 * Much of the front end construction can be automated
+#### Scanner
+* Maps characters into tokens; `x = x + y` becomes <id, `x`> = <id, `x`> + <id, `y`>
+* Character string value for a token is a *lexeme*
+* Typical tokens: number, id, +. -, *, /, do, end
+* Eliminates white space 
+* A key issue is speed
+  * Use specialized recognizer as opposed to lex
+#### Parser
+* Recognize context-free syntax
+* Guide context-sensitive analysis
+* Construct IRs
+* Produce error messages
+* Attempt error correction
+### Back End
+* IR -> instruction selection -> register allocation -> machine code
+* Responsibilities:
+  * Translate IR into target machine code
+  * Choose instructions for each IR operation
+  * Decide what to keep in registers at each point
+  * Ensure conformance with system interfaces
