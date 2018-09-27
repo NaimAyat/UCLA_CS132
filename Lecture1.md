@@ -39,3 +39,21 @@
   * Choose instructions for each IR operation
   * Decide what to keep in registers at each point
   * Ensure conformance with system interfaces
+#### Instuction Selection
+* Produce compact, fast code
+* Use available addressing modes
+* Pattern matching problem
+  * Ad hoc techniques
+  * Tree pattern matching
+  * String pattern matching
+  * Dynamic programming
+### Optimizer (Middle End)
+* Analyzes and changes IR
+* Goal is to reduce runtime
+* Built as a set of passes
+  * Constant propagation and folding
+  * Code motion
+  * Reduction of operator strength
+  * Common subexpression elimination
+  * Redundant store elimination
+  * Dead code elimination
