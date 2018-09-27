@@ -58,3 +58,22 @@
   * Redundant store elimination
   * Dead code elimination
 ## Chapter 2: Lexical Analysis
+### Scanner
+* Maps characters into tokens; `x = x + y` becomes <id, `x`> = <id, `x`> + <id, `y`>
+* Character string value for a token is a *lexeme*
+* Typical tokens: number, id, +. -, *, /, do, end
+* Eliminates white space 
+* A key issue is speed
+  * Use specialized recognizer as opposed to lex
+* A scanner must recognize various parts of the language's syntax
+  * Some parts are easy, like white space:
+    ```
+    <ws> ::= <ws> ' '
+           | <ws> 't'
+           | ' '
+           | '\t'
+    ```
+  * Other parts are harder:
+    * Identifiers (alphabetic followed by k alphanumerics
+    * Numbers (integers, decimals, reals, complex)
+    * We use regular expressions to specify these patterns
