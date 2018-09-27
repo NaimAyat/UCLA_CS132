@@ -10,3 +10,12 @@
   * Front end maps legal code into IR
   * Back end maps IR onto target machine
   * Allows multiple front ends
+### Front End
+* Source code -> scanner -> tokens -> parser -> IR
+* Responsibilities:
+  * Recognizes legal procedure
+  * Reports errors
+  * Produces IR
+  * Preliminary storage map
+  * Shape the code for back end
+* Much of the front end construction can be automated
