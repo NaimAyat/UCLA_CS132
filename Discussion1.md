@@ -7,3 +7,4 @@
   * q<sub>0</sub> ∈ Q = initial state
   * F ⊆ Q = the accepting state(s)
   * δ: Qx Σ → Q
+* A language is regular if some DFA accepts it
