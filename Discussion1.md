@@ -20,3 +20,7 @@
       * h(aaabbb) = εεεεεε = ε
     * h(a) = a, h(b) = a
       * h(L) = {a<sup>2n</sup>}
+## Nondeterministic Finite Automata
+* Can have multiple transitions from the same state for the same symbol
+* Can have transitions with no input; transitions labeled with ε
+* An NFA is said to accept a string if at least one possible path for the string ends at an accepting state
