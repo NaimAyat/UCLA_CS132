@@ -8,3 +8,10 @@ S := {L}
 L := S L | ε
 E := true | false | 
 ```
+## Deterministic Finite Automaton
+* M = (Q, Σ, δ, q<sub>0</sub>, F) where:
+  * Q = finite set (states)
+  * Σ = finite set (alphabet)
+  * q<sub>0</sub> ∈ Q = initial state
+  * F ⊆ Q = the accepting state(s)
+  * δ: Qx Σ → Q
