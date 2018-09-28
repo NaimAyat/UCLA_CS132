@@ -1,5 +1,5 @@
 # Discussion 1: September 28, 2018
-* Office: W 11am - 1pm
+* Office: W 11am - 1pm @ Engineering IV 32565-B
 ```
 S := {L}
    | system.out.println(E);
