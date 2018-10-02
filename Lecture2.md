@@ -12,3 +12,5 @@
            | <term> * factor
            | <factor>
   ```
+### Ambiguity
+* If a grammar has more than one derivation for a single sentential form, then it is ambiguous
