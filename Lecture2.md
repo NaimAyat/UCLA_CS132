@@ -2,6 +2,10 @@
 ## Chapter 3: LL Parsing
 * Regular expressions are used to classify, grammars are used to count
 * Parse = derivation; ie. `<expression> -> <num> <op> <num> -> 1 + 1`
+* LL: leftmost derivation
+  * Build tree top-down
+* LR: rightmost derivation
+  * Build tree bottom-up
 ### Precedence
 * To add precedence, add additional levels to grammar:
   ```
